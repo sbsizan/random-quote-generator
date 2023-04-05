@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left bottom, forestgreen, lightcyan);
+}
+.container{
+    background: rgba(255, 255, 255, 0.3);
+    width: 70%;
+    padding: 28px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+#quote-header{
+    font-size: 48px;
+    color: rgb(2, 49, 14);
+    margin-bottom: 24px;
+}
+#container p{
+    color: rgb(93, 102, 112);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+#container p span{
+    color: rgb(44, 49, 54);
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+#btn{
+    padding: 12px 22px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(2, 49, 14, .6);
+    letter-spacing: 1px;
+}
+#btn:hover{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#quote-paragraph .alert{
+    color: red;
+}
